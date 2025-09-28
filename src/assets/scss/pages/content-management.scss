@@ -1,0 +1,288 @@
+.content-management-page {
+  font-family: "Arial", sans-serif;
+}
+
+.content-management-hero {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+  padding: 80px 0;
+  color: #ffffff;
+}
+
+.content-management-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.content-management-hero-image {
+  text-align: center;
+}
+
+.content-management-hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-management-stats {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.content-management-stat-item {
+  padding: 20px;
+}
+
+.content-management-stat-icon {
+  margin-bottom: 20px;
+}
+
+.content-management-stat-img {
+  width: 60px;
+  height: 60px;
+}
+
+.content-management-stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #8bc34a;
+  margin-bottom: 10px;
+}
+
+.content-management-stat-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.content-management-services {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.content-management-services-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.content-management-services-subtitle {
+  color: #ff9800;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.content-management-services-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.content-management-service-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.content-management-service-card:hover {
+  transform: translateY(-5px);
+}
+
+.content-management-service-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-management-service-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content-management-service-footer {
+  background-color: #1e3a5f;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-management-service-name {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.content-management-advantages {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.content-management-advantages-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.content-management-advantages-subtitle {
+  color: #ff9800;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.content-management-advantages-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.content-management-advantage-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.content-management-advantage-icon {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.content-management-advantage-img {
+  width: 50px;
+  height: 50px;
+}
+
+.content-management-advantage-content {
+  flex: 1;
+}
+
+.content-management-advantage-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.content-management-advantage-text {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.content-management-choose {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.content-management-choose-image {
+  position: relative;
+  text-align: center;
+}
+
+.content-management-choose-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-management-choose-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #8bc34a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.content-management-choose-years {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.content-management-choose-experience {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.content-management-choose-content {
+  padding-left: 40px;
+}
+
+.content-management-choose-subtitle {
+  color: #ff9800;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.content-management-choose-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.content-management-choose-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-management-choose-item {
+  position: relative;
+  padding: 8px 0 8px 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #666666;
+}
+
+.content-management-choose-item::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  color: #8bc34a;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .content-management-hero-title {
+    font-size: 2rem;
+  }
+
+  .content-management-services-title,
+  .content-management-advantages-title,
+  .content-management-choose-title {
+    font-size: 1.8rem;
+  }
+
+  .content-management-stat-number {
+    font-size: 2rem;
+  }
+
+  .content-management-choose-content {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+}

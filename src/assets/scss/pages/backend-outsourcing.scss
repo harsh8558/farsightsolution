@@ -1,0 +1,147 @@
+.backend-outsourcing-page-wrapper {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Hero */
+.backend-outsourcing-hero {
+  background-color: #1a2b40;
+  color: #fff;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.backend-outsourcing-hero-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.backend-outsourcing-hero-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.backend-outsourcing-breadcrumbs {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.backend-outsourcing-breadcrumb-icon {
+  margin-right: 5px;
+}
+
+.backend-outsourcing-breadcrumb-text {
+  margin: 0 5px;
+}
+
+.backend-outsourcing-breadcrumb-separator {
+  margin: 0 5px;
+}
+
+.backend-outsourcing-hero-image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+/* Content */
+.backend-outsourcing-main-content {
+  background-color: #fff;
+  padding: 60px 40px;
+}
+
+.backend-outsourcing-section-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a2b40;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.backend-outsourcing-sub-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.backend-outsourcing-content-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.backend-outsourcing-checklist {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.backend-outsourcing-checklist-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.backend-outsourcing-check-icon {
+  color: #8dc63f;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .backend-outsourcing-hero {
+    padding: 60px 30px;
+  }
+  .backend-outsourcing-hero-title {
+    font-size: 36px;
+  }
+  .backend-outsourcing-main-content {
+    padding: 40px 30px;
+  }
+  .backend-outsourcing-section-heading {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .backend-outsourcing-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .backend-outsourcing-hero-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .backend-outsourcing-hero-title {
+    font-size: 30px;
+  }
+  .backend-outsourcing-main-content {
+    padding: 30px 20px;
+  }
+  .backend-outsourcing-section-heading {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .backend-outsourcing-hero-title {
+    font-size: 24px;
+  }
+  .backend-outsourcing-section-heading {
+    font-size: 18px;
+  }
+}

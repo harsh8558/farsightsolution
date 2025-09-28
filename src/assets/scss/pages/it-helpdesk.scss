@@ -1,0 +1,285 @@
+// IT Help Desk Page Styles
+.it-help-desk-page-wrapper {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+// Hero Section
+.it-help-desk-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 80px 0;
+  color: white;
+}
+
+.it-help-desk-hero-content {
+  padding-right: 30px;
+}
+
+.it-help-desk-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.it-help-desk-breadcrumb-icon {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.it-help-desk-breadcrumb-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.it-help-desk-breadcrumb-separator {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 5px;
+}
+
+.it-help-desk-hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.it-help-desk-hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin-bottom: 0;
+}
+
+.it-help-desk-hero-image-container {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.it-help-desk-hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+// Main Content Section
+.it-help-desk-main-content {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.it-help-desk-content-block {
+  margin-bottom: 50px;
+}
+
+.it-help-desk-section-heading {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.it-help-desk-sub-heading {
+  font-size: 22px;
+  color: #667eea;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.it-help-desk-content-text {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+}
+
+// Component Items
+.it-help-desk-component-item {
+  background: #f8f9fa;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.it-help-desk-component-item:hover {
+  background: #e9ecef;
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+// Process Steps
+.it-help-desk-process-step {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #28a745;
+  position: relative;
+}
+
+.it-help-desk-process-step::before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #28a745, #20c997);
+}
+
+// Benefits Checklist
+.it-help-desk-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.it-help-desk-checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.it-help-desk-checklist-item:hover {
+  background: #e9ecef;
+  transform: translateX(8px);
+  border-left-color: #28a745;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.it-help-desk-check-icon {
+  color: #28a745;
+  flex-shrink: 0;
+}
+
+.it-help-desk-checklist-item span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+// Responsive Design
+@media (max-width: 1199px) {
+  .it-help-desk-hero-content,
+  .it-help-desk-hero-image-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .it-help-desk-hero {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .it-help-desk-hero-title {
+    font-size: 36px;
+  }
+
+  .it-help-desk-section-heading {
+    font-size: 28px;
+  }
+
+  .it-help-desk-hero-content,
+  .it-help-desk-hero-image-container {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .it-help-desk-main-content {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .it-help-desk-hero {
+    padding: 40px 0;
+  }
+
+  .it-help-desk-hero-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .it-help-desk-hero-description {
+    font-size: 16px;
+  }
+
+  .it-help-desk-section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .it-help-desk-sub-heading {
+    font-size: 20px;
+  }
+
+  .it-help-desk-content-text {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .it-help-desk-component-item,
+  .it-help-desk-process-step {
+    padding: 20px;
+  }
+
+  .it-help-desk-checklist-item {
+    padding: 12px;
+  }
+
+  .it-help-desk-checklist-item span {
+    font-size: 15px;
+  }
+
+  .it-help-desk-main-content {
+    padding: 30px 0;
+  }
+
+  .it-help-desk-content-block {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .it-help-desk-hero-title {
+    font-size: 24px;
+  }
+
+  .it-help-desk-section-heading {
+    font-size: 22px;
+  }
+
+  .it-help-desk-sub-heading {
+    font-size: 18px;
+  }
+
+  .it-help-desk-component-item,
+  .it-help-desk-process-step {
+    padding: 15px;
+  }
+
+  .it-help-desk-checklist-item {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .it-help-desk-breadcrumbs {
+    font-size: 13px;
+    justify-content: center;
+  }
+}
